@@ -11,7 +11,7 @@ Base time-frequency representation class.
 """
 
 import numpy as np
-from scipy.signal import hamming
+from scipy.signal.windows import hamming # hamming in is in signal.windows in scipy 1.15, from scipy.signal import hamming
 import matplotlib.pyplot as plt
 
 
