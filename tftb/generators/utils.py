@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.signal import hilbert
-from scipy.integrate import trapz
+from scipy.integrate import trapezoid as trapz # for the new version of scipy, trapz was renamed, from scipy.integrate import trapz
 # from tftb.utils import nextpow2
 
 
